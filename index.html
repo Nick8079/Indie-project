@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forside</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/JS/slider.js" defer></script>
 </head>
 <body>
     <!-- Navigation Bar -->
@@ -19,13 +20,47 @@
     </ul>
 </nav>
 <section>
-    
+    <!-- Slider -->
+    <div class="slider-container">
+        <figure class="slide fade">
+            <img src="assets/Images/main-character.jpg" alt="Et fint billede af et bjerg">
+            <h2 class="text">Billede 1</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/Images/Mani.jpg" alt="Et fint billede af en mose">
+            <h2 class="text">Billede 2</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/Images/Main-villain.jpg" alt="Et fint billede af en flod">
+            <h2 class="text">Billede 3</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/Images/Dragonborn-wizard.jpg" alt="Et fint billede af noget sne">
+            <h2 class="text">Billede 4</h2>
+        </figure>
+        <figure class="slide fade">
+            <img src="assets/Images/Plague-doctor-magician.jpg" alt="Et fint billede af noget sne">
+            <h2 class="text">Billede 5</h2>
+        </figure>
+        <!-- Previous og Next knapper -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+
+        <div class="dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+
+    </div>
 </section>
 
 
 
 
-<script src="assets/JS/app.js"></script>
-<script src="assets/JS/slides.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,22 @@
+body{
+    background-color:#D9D9D9 ;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+
+}
+
+.summary-box{
+    border: 1px solid black;
+    height: fit-content;
+    width: 40%;
+    background-color: #717171;
+    padding: 1rem;
+}

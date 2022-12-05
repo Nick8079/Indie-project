@@ -15,6 +15,7 @@
     <nav class="Navbar">
         <a class="logo" href="index.html">Servants Of The Ancestors</a>
         <ul class="nav-ul">
+            <li><a href="index.html">Home</a></li>
             <li><a href="Characters.html">Characters</a></li>
             <li><a href="Chapters.html">Chapters</a></li>
             <li><a href="AboutTheBook.html">About The Book</a></li>
@@ -61,13 +62,28 @@
     </section>
 
 
-    <section>
-        <footer>
-            <p>
-                All rights for the images belong to the creators, since i drew inspiration to my books from them.
-            </p>
-        </footer>
-    </section>
+
+    <div class="container">
+        <form action="action_page.php">
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+        <p>
+            All rights for the images belong to the creators, since i drew inspiration to my books from them.
+        </p>
+    </div>
+
+
 
 </body>
 

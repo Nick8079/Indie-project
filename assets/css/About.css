@@ -1,19 +1,22 @@
-body{
-    background-color:#D9D9D9 ;
+body {
+    background-color: #D9D9D9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: center;
 
 }
 
-.summary-box{
+.summary-box {
     border: 1px solid black;
     height: fit-content;
     width: 40%;

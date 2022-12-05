@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 50%;
 }
 
@@ -17,13 +18,15 @@
     height: fit-content;
 }
 
+.character{
+    padding: 5px;
+}
 
-
-.Main-character,
-.Main-friend,
-.Main-villain,
-.Dragonborn-wizard,
-.Plague-doctor-magician {
+#Main-character,
+#Main-friend,
+#Main-villain,
+#Dragonborn-wizard,
+#Plague-doctor-magician {
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -43,10 +46,7 @@ section .Box {
     padding: 3.125rem 2.5rem 4.125rem 2.5rem;
     width: 40%;
     height: 30%;
-    /* position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%); */
+    
 }
 
 strong {

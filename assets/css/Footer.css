@@ -1,4 +1,3 @@
-
 footer {
     background-color: #bdb7ab;
     padding: 1rem;
@@ -8,13 +7,24 @@ footer {
 
 }
 
-
-
-
 /* Style inputs with type="text", select elements and textareas */
 input[type=text],
 select,
 textarea {
+    display: flex;
+    justify-content: flex-start;
+    width: 30vw;
+    height: 5vh;
+    padding: 1px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+}
+
+#email{
     display: flex;
     justify-content: flex-start;
     width: 30vw;

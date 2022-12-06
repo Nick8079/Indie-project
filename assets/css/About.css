@@ -3,3 +3,18 @@
     justify-content: center;
     
 }
+.about-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100vw;
+    height: 45.8vh;
+}
+
+.about-text p{
+    width: 50vw;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #88807b;
+    color: white;
+}

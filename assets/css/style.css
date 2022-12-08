@@ -2,7 +2,7 @@
 @import url(navbar.css);
 @import url(Characters.css);
 @import url(Chapters.css);
-@import url(Footer.css);
+@import url("Footer.css");
 @import url(About.css);
 /* RESETS */
 * {

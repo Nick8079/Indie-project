@@ -1,14 +1,14 @@
 .about-box{
     display: flex;
     justify-content: center;
-    
+    height: fit-content;
 }
 .about-text{
     display: flex;
     text-align: center;
     justify-content: center;
     width: 100vw;
-    height: 35.9vh;
+    height: fit-content;
 }
 
 .about-text p{

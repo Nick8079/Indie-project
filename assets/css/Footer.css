@@ -52,12 +52,8 @@ input[type=submit] {
     background-color: #bdb7ab;
     padding: 10px;
     margin-top: auto;
-    display: flex;
+    display: block;
     flex-direction: row;
-    justify-content: space-around;
-}
-
-.container p {
-    display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    
 }

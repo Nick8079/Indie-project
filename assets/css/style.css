@@ -2,7 +2,7 @@
 @import url(navbar.css);
 @import url(Characters.css);
 @import url(Chapters.css);
-@import url("Footer.css");
+@import url(Footer.css);
 @import url(About.css);
 /* RESETS */
 * {
@@ -10,6 +10,7 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    
 }
 body {
     background-color: #D9D9D9;

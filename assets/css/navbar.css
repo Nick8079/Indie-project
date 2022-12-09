@@ -30,13 +30,12 @@
 
 .logo {
     display: flex;
-    justify-content: flex-end;
+    justify-content: right;
     font-family: 'Lobster', cursive;
     text-decoration: none;
     font-size: 1rem;
     color: #000;
     padding-right: 2rem;
-    width: fit-content;
 }
 
 .Navbar, p{
@@ -47,4 +46,5 @@
     .nav-ul li a {
         padding: 0;
     }
+
 }

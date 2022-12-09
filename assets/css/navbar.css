@@ -47,4 +47,10 @@
         padding: 0;
     }
 
+    .logo{
+        font-size: larger;
+        justify-content: center;
+        padding: 0;
+    }
+
 }

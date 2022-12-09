@@ -35,11 +35,29 @@ figure {
 
 .text {
     position: absolute;
-    bottom: 4%;
+    bottom: 7%;
+    height: fit-content;
     width: 100%;
     text-align: center;
     color: black;
     background-color: #717171;
+}
+
+.creator{
+    position: absolute;
+    bottom: 4%;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+    color: black;
+    background-color: #717171;
+    
+}
+
+.creator a{
+    text-decoration: none;
+    color: black;
+    
 }
 
 .prev,

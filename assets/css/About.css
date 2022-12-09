@@ -18,3 +18,10 @@
     background-color: #88807b;
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .about-text p {
+        width: fit-content;
+    }
+
+}

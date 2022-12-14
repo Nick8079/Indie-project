@@ -14,3 +14,9 @@
     background-color: #88807b;
     font-family: 'Inter', sans-serif;
 }
+
+.chapters-and-names h1{
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+}

@@ -36,6 +36,8 @@
   border: 1px solid #ccc;
   border-top: none;
   font-family: 'Inter', sans-serif;
+  background-color: #88807b;
+
 }
 h3{
   padding-bottom: 10px;
@@ -47,3 +49,7 @@ h4{
 }
 
 
+.tabcontent p{
+  width: 50vw;
+  
+}

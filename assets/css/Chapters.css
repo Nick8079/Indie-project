@@ -1,0 +1,16 @@
+.chapter-ul li {
+    border: 2px solid #ccc;
+    color: black;
+
+}
+
+.chapter-ul a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.chapters-and-names {
+    background-color: #88807b;
+    font-family: 'Inter', sans-serif;
+}

@@ -4,8 +4,10 @@
 @import url(Summary.css);
 @import url(Footer.css);
 @import url(About.css);
+@import url(Chapters.css);
+
 /* RESETS */
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;

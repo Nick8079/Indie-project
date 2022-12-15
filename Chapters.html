@@ -31,84 +31,50 @@
         </nav>
     </header>
 
-
-    <section class="chapters-and-names">
-
-        <h1>All chapters and names</h1>
-        <ul class="chapter-ul">
-            <li>
-                <a href="html/C0.html">Chapter 0</a>
-                <h4>The Beginning</h4>
-            </li>
-            
-            <li>
-                <a href="html/C1.html">Chapter 1</a>
-                <h4>The castle on the hill</h4>
-            </li>
-            
-            <li>
-                <a href="html/C2.html">Chapter 2</a>
-                <h4>Bazaar Of Yesterday</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 3</a>
-                <h4>Family Defense</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 4</a>
-                <h4>The Small Cave</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 5</a>
-                <h4>Dead Guards</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 6</a>
-                <h4>The Coal Factory</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 7</a>
-                <h4>Sprectal Following</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 8</a>
-                <h4>The Wolfpack</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 9</a>
-                <h4>Friendly Dragon</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 10</a>
-                <h4>The Evil Dwarves</h4>
-            </li>
-            
-            <li>
-                <a href="">Chapter 11</a>
-                <h4>The talk with a lich</h4>
-            </li>
-
-        </ul>
-
-
-
-
-
-
-
-
-    </section>
     
-    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="tablinksbox">
+        <button class="tablink" onclick="opentab('C0')">Home</button>
+        <button class="tablink" onclick="opentab('C1')">News</button>
+        <button class="tablink" onclick="opentab('C2')">Contact</button>
+        <button class="tablink" onclick="opentab('C3')">About</button>
+        <button class="tablink" onclick="opentab('C4')">Chapter 4</button>
+    </div>
+    
+    <div id="C0" class="tabcontent">
+      <h3>Home</h3>
+      <p>Home is where the heart is..</p>
+    </div>
+    
+    <div id="C1" class="tabcontent">
+      <h3>News</h3>
+      <p>Some news this fine day!</p>
+    </div>
+    
+    <div id="C2" class="tabcontent">
+      <h3>Contact</h3>
+      <p>Get in touch, or swing by for a cup of coffee.</p>
+    </div>
+    
+    <div id="C3" class="tabcontent">
+      <h3>About</h3>
+      <p>Who we are and what we do.</p>
+    </div>
 
+    <div id="C4" class="tabcontent">
+        <h3>About</h3>
+        <p>Who we are and what we do.</p>
+      </div>
+
+
+
+
+
+
+
+
+    
+    
+    
     <!-- Footer Begins -->
     <footer>
         <div class="container">
@@ -146,7 +112,8 @@
 
 
 
-    <script src="assets/JS/top.js" defer></script>
+    <script src="assets/JS/chapters.js" defer></script>
+    
 </body>
 
 </html>

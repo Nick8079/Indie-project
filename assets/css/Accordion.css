@@ -29,7 +29,6 @@
 
 .panel p{
   display: flex;
-  justify-self: center;
   height: fit-content;
   width: 50vw;
   white-space: pre-line;

@@ -60,6 +60,10 @@ input[type=submit] {
     font-family: 'Inter', sans-serif;
 }
 
+.icons-container{
+    font-size: small;
+}
+
 @media only screen and (max-width: 600px) {
     input[type=text],
 select,

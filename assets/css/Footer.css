@@ -60,10 +60,9 @@ input[type=submit] {
     font-family: 'Inter', sans-serif;
 }
 
-.icons-container{
+.icons-container img{
     font-size: small;
-    width: 1rem;
-    height: 1rem;
+    
 }
 
 @media only screen and (max-width: 600px) {
